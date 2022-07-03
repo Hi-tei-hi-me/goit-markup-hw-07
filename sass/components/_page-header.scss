@@ -1,4 +1,4 @@
-header {
+.header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -17,13 +17,13 @@ header {
     align-items: center;
   }
 }
-.nav-list {
+.header__nav-list {
   display: flex;
   li:not(:last-child) {
     margin-right: 50px;
   }
 }
-.header-nav {
+.header__nav-link {
   position: relative;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -34,14 +34,14 @@ header {
     color: var(--accent);
   }
 }
-.contact-list {
+.header__contact-list {
   display: flex;
   margin-left: auto;
   li:not(:last-child) {
     margin-right: 50px;
   }
 }
-.contact-link {
+.header__contact-link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -52,7 +52,7 @@ header {
     color: var(--accent);
   }
 }
-.header-icon {
+.header__icon {
   fill: currentColor;
   margin-right: 10px;
 }

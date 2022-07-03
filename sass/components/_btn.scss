@@ -1,16 +1,9 @@
-.hero-btn {
+.hero__btn {
   @extend %basic-btn;
   @extend %main-btn;
   padding: 10px 32px;
 }
-.modal-send-btn {
-  display: block;
-  margin: 0 auto;
-  @extend %basic-btn;
-  @extend %main-btn;
-  padding: 10px 32px;
-}
-.subscribe-btn {
+.footer__btn {
   @extend %flex-centered;
   @extend %basic-btn;
   @extend %main-btn;
@@ -20,6 +13,13 @@
     margin-left: 10px;
     fill: currentColor;
   }
+}
+.modal-send-btn {
+  display: block;
+  margin: 0 auto;
+  @extend %basic-btn;
+  @extend %main-btn;
+  padding: 10px 32px;
 }
 .filter-btn {
   text-align: center;

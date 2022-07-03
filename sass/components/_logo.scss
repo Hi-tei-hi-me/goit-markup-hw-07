@@ -5,15 +5,17 @@
   color: var(--accent);
   font-size: 26px;
   line-height: 1.19;
-  margin-right: 93px;
-  footer & {
-    margin-bottom: 20px;
-    margin-right: 0;
-  }
 }
-.logo-accent {
+.header__logo {
+  margin-right: 93px;
+}
+.footer__logo {
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+.logo__accent {
   color: var(--secondary-text);
-  footer & {
+  .footer & {
     color: var(--main-white);
   }
 }

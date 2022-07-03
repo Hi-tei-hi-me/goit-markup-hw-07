@@ -1,10 +1,18 @@
-.advantage-list {
+.advantage__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--secondary-text);
+}
+.advantage__list {
   display: flex;
   li:not(:last-child) {
     margin-right: 30px;
   }
 }
-.advantage-item {
+.advantage__item {
   width: 270px;
   text-align: left;
   align-items: center;
@@ -21,7 +29,7 @@
   }
 }
 @include generate-icons($icons);
-.advantage-title {
+.advantage__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
