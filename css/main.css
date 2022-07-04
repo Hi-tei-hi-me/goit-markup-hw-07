@@ -295,7 +295,7 @@ img {
   color: var(--secondary-text);
   background-color: var(--light-background);
   box-shadow: none;
-  transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing), box-shadow var(--duration) var(--timing);
+  transition: color var(--transition-duration) var(--transition-timing), background-color var(--transition-duration) var(--transition-timing), box-shadow var(--transition-duration) var(--transition-timing);
 }
 .filter-btn:hover, .filter-btn:focus {
   color: var(--main-white);
@@ -624,6 +624,7 @@ img {
 
 .footer__cta {
   display: block;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-white);
@@ -669,7 +670,7 @@ img {
   top: 0;
   opacity: 1;
   visibility: visible;
-  transition: opacity var(--transition-duration) var(---transition-timing), visibility var(--transition-duration) var(--transition-timing);
+  transition: opacity var(--transition-duration) var(--transition-timing), visibility var(--transition-duration) var(--transition-timing);
 }
 
 .is-hidden {

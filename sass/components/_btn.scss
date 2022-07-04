@@ -31,9 +31,9 @@
   color: var(--secondary-text);
   background-color: var(--light-background);
   box-shadow: none;
-  transition: color var(--duration) var(--timing),
-    background-color var(--duration) var(--timing),
-    box-shadow var(--duration) var(--timing);
+  transition: color var(--transition-duration) var(--transition-timing),
+    background-color var(--transition-duration) var(--transition-timing),
+    box-shadow var(--transition-duration) var(--transition-timing);
   &:hover,
   &:focus {
     color: var(--main-white);
